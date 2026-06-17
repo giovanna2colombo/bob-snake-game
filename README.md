@@ -1,11 +1,11 @@
-# 🤖 Bob's Snake Game
+ 🤖 Bob's Snake Game
 
 A fun and simple Snake game where Robot Bob (with his cool blue helmet!) collects bobcoins! Built with HTML, CSS, and JavaScript - no installation required!
 
 ## 🎮 How to Play the Game
 
 ### Step 1: Open the Game
-1. Find the file called `snake-game.html` on your Desktop
+1. Find the file called `index.html` on your Desktop
 2. **Double-click** the file
 3. It will open in your web browser (Chrome, Firefox, Safari, etc.)
 
@@ -46,7 +46,7 @@ A fun and simple Snake game where Robot Bob (with his cool blue helmet!) collect
 1. In your new repository, click **"Add file"** button
 2. Select **"Upload files"**
 3. **Drag and drop** these files from your Desktop:
-   - `snake-game.html`
+   - `index.html` (the game file)
    - `README.md` (this file)
 4. Scroll down and click **"Commit changes"**
 
@@ -66,7 +66,7 @@ A fun and simple Snake game where Robot Bob (with his cool blue helmet!) collect
 
 3. **Add Your Files**:
    - Open the folder where you cloned the repository
-   - Copy `snake-game.html` and `README.md` into this folder
+   - Copy `index.html` and `README.md` into this folder
    - Go back to GitHub Desktop
    - You'll see the files listed under "Changes"
 
@@ -84,8 +84,7 @@ A fun and simple Snake game where Robot Bob (with his cool blue helmet!) collect
 5. Click **"Save"**
 6. Wait 1-2 minutes, then refresh the page
 7. You'll see a link like: `https://yourusername.github.io/bob-snake-game/`
-8. **Important**: Add `/snake-game.html` to the end of the URL to play:
-   - `https://yourusername.github.io/bob-snake-game/snake-game.html`
+8. **That's it!** The game will load automatically because the file is named `index.html`
 
 🎉 **Now anyone can play your game by visiting that link!**
 
@@ -95,7 +94,7 @@ A fun and simple Snake game where Robot Bob (with his cool blue helmet!) collect
 
 If you want to modify the game later:
 
-1. Open `snake-game.html` with any text editor:
+1. Open `index.html` with any text editor:
    - **Windows**: Right-click → "Open with" → "Notepad"
    - **Mac**: Right-click → "Open With" → "TextEdit"
    - **Better option**: Download [VS Code](https://code.visualstudio.com) (free code editor)
@@ -154,8 +153,9 @@ Find this line: `const gridSize = 20;`
 
 **GitHub Pages not working?**
 - Wait a few minutes after enabling it
-- Make sure you added `/snake-game.html` to the end of the URL
+- The game should load automatically at `https://yourusername.github.io/bob-snake-game/`
 - Check that your repository is public
+- Make sure the file is named `index.html` (not `snake-game.html`)
 
 ---
 
